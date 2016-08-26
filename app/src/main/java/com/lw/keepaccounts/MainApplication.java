@@ -1,4 +1,4 @@
-package com.fujitsu.keepaccounts;
+package com.lw.keepaccounts;
 
 import android.app.Application;
 
@@ -8,8 +8,17 @@ import android.app.Application;
  */
 public class MainApplication extends Application{
 
+    private static  MainApplication instance;
+
     @Override
     public void onCreate() {
         super.onCreate();
+        instance = this;
     }
+
+    public static MainApplication getInstance(){
+        return instance;
+    }
+
+
 }
