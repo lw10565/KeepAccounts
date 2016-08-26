@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">KeepAccounts</string>
+    <string name="app_name">大脸猫记账</string>
+    <!--主页面的String -->
+    <string name="bottom_first">资产</string>
+    <string name="bottom_second">账单</string>
+    <string name="bottom_third">我</string>
+
 </resources>
