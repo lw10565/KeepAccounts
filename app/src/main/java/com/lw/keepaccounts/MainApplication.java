@@ -5,6 +5,7 @@ import android.app.Application;
 /**
  * Created by lw on 2016/8/25.
  * app全局管理类
+ * by
  */
 public class MainApplication extends Application{
 
@@ -15,6 +16,8 @@ public class MainApplication extends Application{
         super.onCreate();
         instance = this;
     }
+
+
 
     public static MainApplication getInstance(){
         return instance;
