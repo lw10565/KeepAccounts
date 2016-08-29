@@ -1,8 +1,9 @@
 package com.lw.keepaccounts.HomeActivity.view;
 
-import android.widget.BaseAdapter;
+import android.os.Bundle;
 
 import com.lw.keepaccounts.BaseActivity;
+import com.lw.keepaccounts.R;
 
 /**
  * 应用主Activity
@@ -10,5 +11,9 @@ import com.lw.keepaccounts.BaseActivity;
  */
 public class HomeActivity extends BaseActivity {
 
-
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+    }
 }
